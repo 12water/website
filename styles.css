@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Set background color to white */
+    color: #255056; /* Set text color to deep teal */
+}
+
+header {
+    background-color: #A3426D; /* Set header background color to pinkish-purple */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff; /* Set header text color to white */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #255056; /* Set navigation link color to deep teal */
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text within children */
+    
+}
+
+section h2 {
+    color: #A3426D; /* Set section heading color to pinkish-purple */
+}
+.hours-of-operation {
+    text-align: right; /* Align text to the right */
+    margin-top: 10px; /* Add some top margin for spacing */
+    font-style: italic; /* Optionally, italicize the text */
+}
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+.view-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A3426D;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+    background-color: #7C2950; /* Darker shade on hover */
+}
+
+footer {
+    background-color: #255056; /* Set footer background color to deep teal */
+    color: #fff; /* Set footer text color to white */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 600px) {
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    section {
+        padding: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        padding: 70px;
+    }
+}
